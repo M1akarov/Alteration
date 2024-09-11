@@ -7,7 +7,7 @@
 
   /*========== Colors ==========*/
   /*Color mode HSL(hue, saturation, lightness)*/
-  --first-color: hsl(34, 52%, 54%);
+	--first-color:  hsl(60, 60%, 82%)
   --first-color-light: hsl(34, 52%, 64%);
   --first-color-lighten: hsl(34, 52%, 68%);
   --black-color: hsl(0, 0%, 4%);
@@ -106,12 +106,19 @@ img {
 .nav__toggle,
 .nav__actions {
 	display: flex;
-	font-size: 1.25rem;
+	font-size: 1.5rem;
 	cursor: pointer;
 }
 
 .nav__actions {
-	column-gap: .5rem;
+	column-gap: 1rem;
+}
+
+.nav__social-link {
+	display: flex;
+	font-size: 1.4rem;
+	cursor: pointer;
+	column-gap: 1rem;
 }
 
 
@@ -375,8 +382,12 @@ img {
 			right: calc(50% - 12rem);
 			font-size: 2rem;
 		}
+
 		.home__social-link{
 			font-size: 1.5rem; 
+		}
+		.home__social-link a{
+			text-decoration: none;
 		}
 
 		::-webkit-scrollbar{
