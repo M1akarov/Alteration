@@ -52,6 +52,8 @@ body {
   font-size: var(--normal-font-size);
   background-color: var(--first-color);
   color: var(--black-color);
+	overflow: hidden;
+  height: 100%;
 }
 
 ul {
