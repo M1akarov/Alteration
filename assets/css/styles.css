@@ -7,7 +7,7 @@
 
   /*========== Colors ==========*/
   /*Color mode HSL(hue, saturation, lightness)*/
-	--first-color:  hsl(60, 60%, 82%)
+	--first-color:  white;
   --first-color-light: hsl(34, 52%, 64%);
   --first-color-lighten: hsl(34, 52%, 68%);
   --black-color: hsl(0, 0%, 4%);
@@ -269,11 +269,11 @@ img {
 }
 
 .swiper-button-prev {
-	left: calc(50% - 8rem);
+	left: calc(50% - 9rem);
 }
 
 .swiper-button-next {
-	right: calc(50% - 8rem);
+	right: calc(50% - 9rem);
 }
 
 /*=============== BREAKPOINTS ===============*/
@@ -342,7 +342,7 @@ img {
 		.nav__list{
 			flex-direction: row;
 			justify-content: center;
-			column-gap: 4rem;
+			column-gap: 2rem;
 		}
 		.home__container{
 			height: initial;
